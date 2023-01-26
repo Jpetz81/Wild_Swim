@@ -2,7 +2,7 @@ body {
     background-color: #CDEAC0;
     color: whitesmoke;
 
-    font-family: 'Unbounded', cursive;
+    font-family: 'Kaushan Script', cursive;
 }
 
 h1 {
@@ -42,4 +42,22 @@ p {color:#04AA6D}
   .navbar a.active {
     background-color: #04AA6D;
     color: white;
+  }
+
+  /* arranging photos */
+  .gallery {
+
+    display: flex;
+    height:15%;
+    width:15%;
+    flex-flow: row;
+    justify-content:first baseline;
+    justify-self: start;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-content: space-between;
+    align-self: center;
+    
+
   }
